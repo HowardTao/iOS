@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EADBB26F1A4BAA16008ECDA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADBB26E1A4BAA16008ECDA7 /* Foundation.framework */; };
+		EADBB2711A4BAA16008ECDA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADBB2701A4BAA16008ECDA7 /* CoreGraphics.framework */; };
+		EADBB2731A4BAA16008ECDA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADBB2721A4BAA16008ECDA7 /* UIKit.framework */; };
+		EADBB2791A4BAA16008ECDA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EADBB2771A4BAA16008ECDA7 /* InfoPlist.strings */; };
+		EADBB27B1A4BAA16008ECDA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EADBB27A1A4BAA16008ECDA7 /* main.m */; };
+		EADBB27F1A4BAA16008ECDA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EADBB27E1A4BAA16008ECDA7 /* AppDelegate.m */; };
+		EADBB2821A4BAA16008ECDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADBB2801A4BAA16008ECDA7 /* Main.storyboard */; };
+		EADBB2851A4BAA16008ECDA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EADBB2841A4BAA16008ECDA7 /* ViewController.m */; };
+		EADBB2871A4BAA16008ECDA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADBB2861A4BAA16008ECDA7 /* Images.xcassets */; };
+		EADBB28E1A4BAA16008ECDA7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADBB28D1A4BAA16008ECDA7 /* XCTest.framework */; };
+		EADBB28F1A4BAA16008ECDA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADBB26E1A4BAA16008ECDA7 /* Foundation.framework */; };
+		EADBB2901A4BAA16008ECDA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADBB2721A4BAA16008ECDA7 /* UIKit.framework */; };
+		EADBB2981A4BAA16008ECDA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EADBB2961A4BAA16008ECDA7 /* InfoPlist.strings */; };
+		EADBB29A1A4BAA16008ECDA7 /* __UI__01______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EADBB2991A4BAA16008ECDA7 /* __UI__01______Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EADBB2911A4BAA16008ECDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADBB2631A4BAA16008ECDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADBB26A1A4BAA16008ECDA7;
+			remoteInfo = "1.UI基础01-加法运算器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EADBB26B1A4BAA16008ECDA7 /* 1.UI基础01-加法运算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1.UI基础01-加法运算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADBB26E1A4BAA16008ECDA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EADBB2701A4BAA16008ECDA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EADBB2721A4BAA16008ECDA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EADBB2761A4BAA16008ECDA7 /* 1.UI基础01-加法运算器-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "1.UI基础01-加法运算器-Info.plist"; sourceTree = "<group>"; };
+		EADBB2781A4BAA16008ECDA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EADBB27A1A4BAA16008ECDA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EADBB27C1A4BAA16008ECDA7 /* 1.UI基础01-加法运算器-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1.UI基础01-加法运算器-Prefix.pch"; sourceTree = "<group>"; };
+		EADBB27D1A4BAA16008ECDA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EADBB27E1A4BAA16008ECDA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EADBB2811A4BAA16008ECDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EADBB2831A4BAA16008ECDA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EADBB2841A4BAA16008ECDA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EADBB2861A4BAA16008ECDA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EADBB28C1A4BAA16008ECDA7 /* 1.UI基础01-加法运算器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1.UI基础01-加法运算器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADBB28D1A4BAA16008ECDA7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EADBB2951A4BAA16008ECDA7 /* 1.UI基础01-加法运算器Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "1.UI基础01-加法运算器Tests-Info.plist"; sourceTree = "<group>"; };
+		EADBB2971A4BAA16008ECDA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EADBB2991A4BAA16008ECDA7 /* __UI__01______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__UI__01______Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EADBB2681A4BAA16008ECDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADBB2711A4BAA16008ECDA7 /* CoreGraphics.framework in Frameworks */,
+				EADBB2731A4BAA16008ECDA7 /* UIKit.framework in Frameworks */,
+				EADBB26F1A4BAA16008ECDA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADBB2891A4BAA16008ECDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADBB28E1A4BAA16008ECDA7 /* XCTest.framework in Frameworks */,
+				EADBB2901A4BAA16008ECDA7 /* UIKit.framework in Frameworks */,
+				EADBB28F1A4BAA16008ECDA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EADBB2621A4BAA16008ECDA7 = {
+			isa = PBXGroup;
+			children = (
+				EADBB2741A4BAA16008ECDA7 /* 1.UI基础01-加法运算器 */,
+				EADBB2931A4BAA16008ECDA7 /* 1.UI基础01-加法运算器Tests */,
+				EADBB26D1A4BAA16008ECDA7 /* Frameworks */,
+				EADBB26C1A4BAA16008ECDA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EADBB26C1A4BAA16008ECDA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADBB26B1A4BAA16008ECDA7 /* 1.UI基础01-加法运算器.app */,
+				EADBB28C1A4BAA16008ECDA7 /* 1.UI基础01-加法运算器Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EADBB26D1A4BAA16008ECDA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EADBB26E1A4BAA16008ECDA7 /* Foundation.framework */,
+				EADBB2701A4BAA16008ECDA7 /* CoreGraphics.framework */,
+				EADBB2721A4BAA16008ECDA7 /* UIKit.framework */,
+				EADBB28D1A4BAA16008ECDA7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EADBB2741A4BAA16008ECDA7 /* 1.UI基础01-加法运算器 */ = {
+			isa = PBXGroup;
+			children = (
+				EADBB27D1A4BAA16008ECDA7 /* AppDelegate.h */,
+				EADBB27E1A4BAA16008ECDA7 /* AppDelegate.m */,
+				EADBB2801A4BAA16008ECDA7 /* Main.storyboard */,
+				EADBB2831A4BAA16008ECDA7 /* ViewController.h */,
+				EADBB2841A4BAA16008ECDA7 /* ViewController.m */,
+				EADBB2861A4BAA16008ECDA7 /* Images.xcassets */,
+				EADBB2751A4BAA16008ECDA7 /* Supporting Files */,
+			);
+			path = "1.UI基础01-加法运算器";
+			sourceTree = "<group>";
+		};
+		EADBB2751A4BAA16008ECDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EADBB2761A4BAA16008ECDA7 /* 1.UI基础01-加法运算器-Info.plist */,
+				EADBB2771A4BAA16008ECDA7 /* InfoPlist.strings */,
+				EADBB27A1A4BAA16008ECDA7 /* main.m */,
+				EADBB27C1A4BAA16008ECDA7 /* 1.UI基础01-加法运算器-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EADBB2931A4BAA16008ECDA7 /* 1.UI基础01-加法运算器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EADBB2991A4BAA16008ECDA7 /* __UI__01______Tests.m */,
+				EADBB2941A4BAA16008ECDA7 /* Supporting Files */,
+			);
+			path = "1.UI基础01-加法运算器Tests";
+			sourceTree = "<group>";
+		};
+		EADBB2941A4BAA16008ECDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EADBB2951A4BAA16008ECDA7 /* 1.UI基础01-加法运算器Tests-Info.plist */,
+				EADBB2961A4BAA16008ECDA7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EADBB26A1A4BAA16008ECDA7 /* 1.UI基础01-加法运算器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADBB29D1A4BAA16008ECDA7 /* Build configuration list for PBXNativeTarget "1.UI基础01-加法运算器" */;
+			buildPhases = (
+				EADBB2671A4BAA16008ECDA7 /* Sources */,
+				EADBB2681A4BAA16008ECDA7 /* Frameworks */,
+				EADBB2691A4BAA16008ECDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1.UI基础01-加法运算器";
+			productName = "1.UI基础01-加法运算器";
+			productReference = EADBB26B1A4BAA16008ECDA7 /* 1.UI基础01-加法运算器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EADBB28B1A4BAA16008ECDA7 /* 1.UI基础01-加法运算器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADBB2A01A4BAA16008ECDA7 /* Build configuration list for PBXNativeTarget "1.UI基础01-加法运算器Tests" */;
+			buildPhases = (
+				EADBB2881A4BAA16008ECDA7 /* Sources */,
+				EADBB2891A4BAA16008ECDA7 /* Frameworks */,
+				EADBB28A1A4BAA16008ECDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADBB2921A4BAA16008ECDA7 /* PBXTargetDependency */,
+			);
+			name = "1.UI基础01-加法运算器Tests";
+			productName = "1.UI基础01-加法运算器Tests";
+			productReference = EADBB28C1A4BAA16008ECDA7 /* 1.UI基础01-加法运算器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EADBB2631A4BAA16008ECDA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = tony.tao;
+				TargetAttributes = {
+					EADBB28B1A4BAA16008ECDA7 = {
+						TestTargetID = EADBB26A1A4BAA16008ECDA7;
+					};
+				};
+			};
+			buildConfigurationList = EADBB2661A4BAA16008ECDA7 /* Build configuration list for PBXProject "1.UI基础01-加法运算器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EADBB2621A4BAA16008ECDA7;
+			productRefGroup = EADBB26C1A4BAA16008ECDA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EADBB26A1A4BAA16008ECDA7 /* 1.UI基础01-加法运算器 */,
+				EADBB28B1A4BAA16008ECDA7 /* 1.UI基础01-加法运算器Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EADBB2691A4BAA16008ECDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADBB2871A4BAA16008ECDA7 /* Images.xcassets in Resources */,
+				EADBB2791A4BAA16008ECDA7 /* InfoPlist.strings in Resources */,
+				EADBB2821A4BAA16008ECDA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADBB28A1A4BAA16008ECDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADBB2981A4BAA16008ECDA7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EADBB2671A4BAA16008ECDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADBB2851A4BAA16008ECDA7 /* ViewController.m in Sources */,
+				EADBB27F1A4BAA16008ECDA7 /* AppDelegate.m in Sources */,
+				EADBB27B1A4BAA16008ECDA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADBB2881A4BAA16008ECDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADBB29A1A4BAA16008ECDA7 /* __UI__01______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EADBB2921A4BAA16008ECDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADBB26A1A4BAA16008ECDA7 /* 1.UI基础01-加法运算器 */;
+			targetProxy = EADBB2911A4BAA16008ECDA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EADBB2771A4BAA16008ECDA7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADBB2781A4BAA16008ECDA7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EADBB2801A4BAA16008ECDA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADBB2811A4BAA16008ECDA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EADBB2961A4BAA16008ECDA7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADBB2971A4BAA16008ECDA7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EADBB29B1A4BAA16008ECDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EADBB29C1A4BAA16008ECDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EADBB29E1A4BAA16008ECDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "1.UI基础01-加法运算器/1.UI基础01-加法运算器-Prefix.pch";
+				INFOPLIST_FILE = "1.UI基础01-加法运算器/1.UI基础01-加法运算器-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EADBB29F1A4BAA16008ECDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "1.UI基础01-加法运算器/1.UI基础01-加法运算器-Prefix.pch";
+				INFOPLIST_FILE = "1.UI基础01-加法运算器/1.UI基础01-加法运算器-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EADBB2A11A4BAA16008ECDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/1.UI基础01-加法运算器.app/1.UI基础01-加法运算器";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "1.UI基础01-加法运算器/1.UI基础01-加法运算器-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "1.UI基础01-加法运算器Tests/1.UI基础01-加法运算器Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EADBB2A21A4BAA16008ECDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/1.UI基础01-加法运算器.app/1.UI基础01-加法运算器";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "1.UI基础01-加法运算器/1.UI基础01-加法运算器-Prefix.pch";
+				INFOPLIST_FILE = "1.UI基础01-加法运算器Tests/1.UI基础01-加法运算器Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EADBB2661A4BAA16008ECDA7 /* Build configuration list for PBXProject "1.UI基础01-加法运算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADBB29B1A4BAA16008ECDA7 /* Debug */,
+				EADBB29C1A4BAA16008ECDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADBB29D1A4BAA16008ECDA7 /* Build configuration list for PBXNativeTarget "1.UI基础01-加法运算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADBB29E1A4BAA16008ECDA7 /* Debug */,
+				EADBB29F1A4BAA16008ECDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EADBB2A01A4BAA16008ECDA7 /* Build configuration list for PBXNativeTarget "1.UI基础01-加法运算器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADBB2A11A4BAA16008ECDA7 /* Debug */,
+				EADBB2A21A4BAA16008ECDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EADBB2631A4BAA16008ECDA7 /* Project object */;
+}
