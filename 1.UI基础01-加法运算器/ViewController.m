@@ -28,5 +28,15 @@
 
 - (IBAction)sumButton:(UIButton *)sender {
     
+    //将数字1文本转换为整型
+    NSInteger number1 = [_txtNumber1.text integerValue];
+    //将数字2文本转换为整型
+    NSInteger number2 = [_txtNumber2.text integerValue];
+    
+    _lblResult.text = [NSString stringWithFormat:@"%d",number1+number2];
+    
+    [self.view endEditing:YES];
+    
+    
 }
 @end
