@@ -10,4 +10,14 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *txtNumber1;
+
+@property (weak, nonatomic) IBOutlet UITextField *txtNumber2;
+
+@property (weak, nonatomic) IBOutlet UILabel *lblResult;
+
+
+- (IBAction)sumButton:(UIButton *)sender;
+
+
 @end

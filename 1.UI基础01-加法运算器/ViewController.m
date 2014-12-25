@@ -26,4 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)sumButton:(UIButton *)sender {
+    
+}
 @end
